@@ -186,70 +186,30 @@ draw_bold_text_with_bright_colors: true
 colors:
   # Default colors
   primary:
-    background: '0x1c1709'
-    foreground: '0xc2b9a1'
-
-    # Bright and dim foreground colors
-    #
-    # The dimmed foreground color is calculated automatically if it is not present.
-    # If the bright foreground color is not set, or `draw_bold_text_with_bright_colors`
-    # is `false`, the normal foreground color will be used.
-    #dim_foreground: '0x9a9a9a'
-    #bright_foreground: '0xffffff'
-
-  # Cursor colors
-  #
-  # Colors which should be used to draw the terminal cursor. If these are unset,
-  # the cursor color will be the inverse of the cell color.
-  #cursor:
-  #  text: '0x000000'
-  #  cursor: '0xffffff'
+    background: '0x170f0d'
+    foreground: '0x746c48'
 
   # Normal colors
   normal:
-    black:   '0x1c1709'
-    red:     '0x8e4317'
-    green:   '0x787200'
-    yellow:  '0x945c00'
-    blue:    '0x315094'
-    magenta: '0x5c2e40'
-    cyan:    '0x00617d'
-    white:   '0xc2b9a1'
+    black:   '0x392925'
+    red:     '0x98724c'
+    green:   '0x908f32'
+    yellow:  '0xaa964c'
+    blue:    '0x7b854e'
+    magenta: '0x6b5644'
+    cyan:    '0x5c5142'
+    white:   '0xc8b55b'
 
   # Bright colors
   bright:
-    black:   '0x4f4939'
-    red:     '0xf07935'
-    green:   '0xd9d138'
-    yellow:  '0xffab26'
-    blue:    '0x8aa9ed'
-    magenta: '0xff8cb8'
-    cyan:    '0x43bfe0'
-    white:   '0xf2e8c9'
-
-  # Dim colors
-  #
-  # If the dim colors are not set, they will be calculated automatically based
-  # on the `normal` colors.
-  #dim:
-  #  black:   '0x000000'
-  #  red:     '0x8c3336'
-  #  green:   '0x7a8530'
-  #  yellow:  '0x97822e'
-  #  blue:    '0x506d8f'
-  #  magenta: '0x80638e'
-  #  cyan:    '0x497e7a'
-  #  white:   '0x9a9a9a'
-
-  # Indexed Colors
-  #
-  # The indexed colors include all colors from 16 to 256.
-  # When these are not set, they're filled with sensible defaults.
-  #
-  # Example:
-  #   `- { index: 16, color: '0xff00ff' }`
-  #
-  indexed_colors: []
+    black:   '0x544b2e'
+    red:     '0xaf652f'
+    green:   '0xc3c13d'
+    yellow:  '0xc8b55b'
+    blue:    '0x70a16c'
+    magenta: '0x98724c'
+    cyan:    '0x778725'
+    white:   '0xe4dc8c'
 
 # Visual Bell
 #
