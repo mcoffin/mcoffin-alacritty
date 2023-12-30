@@ -1,1 +1,4 @@
 /alacritty.yml
+/*.zst
+/*.xz
+/*.gz
