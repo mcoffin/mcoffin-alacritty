@@ -24,26 +24,20 @@ render_timer = false
 
 [font]
 size = 10.5
-
-[font.bold]
-family = "Hack"
-style = "Bold"
-
-[font.glyph_offset]
-x = 0
-y = 0
-
-[font.italic]
-family = "Hack"
-style = "Italic"
+offset = { x = 0, y = 0 }
+glyph_offset = { x = 0, y = 0 }
 
 [font.normal]
 family = "Hack"
 style = "Regular"
 
-[font.offset]
-x = 0
-y = 0
+[font.bold]
+family = "Hack"
+style = "Bold"
+
+[font.italic]
+family = "Hack"
+style = "Italic"
 
 [[hints.enabled]]
 command = "xdg-open"
@@ -579,15 +573,12 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 
 [window]
 decorations = "full"
-dynamic_padding = true
+dynamic_padding = false
 dynamic_title = true
 opacity = 0.97
 startup_mode = "Windowed"
+padding = { x = 0, y = 0 }
 
 [window.dimensions]
 columns = 0
 lines = 0
-
-[window.padding]
-x = 2
-y = 2
