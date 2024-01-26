@@ -575,7 +575,7 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 decorations = "full"
 dynamic_padding = false
 dynamic_title = true
-opacity = 0.97
+opacity = 0.98
 startup_mode = "Windowed"
 padding = { x = 0, y = 0 }
 
