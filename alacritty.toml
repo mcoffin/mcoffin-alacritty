@@ -2,7 +2,8 @@
 live_config_reload = true
 # renderer_api = "Classic"
 import = [
-	"~/.config/alacritty/mcbrown.toml"
+	"~/.config/alacritty/mcbrown.toml",
+	"~/.config/alacritty/zoom.toml"
 ]
 
 [bell]
@@ -44,11 +45,11 @@ command = "xdg-open"
 post_processing = true
 regex = "(mailto:|gemini:|gopher:|https:|http:|news:|file:|git:|ssh:|ftp:)[^\u0000-\u001F\u007F-<>\"\\s{-}\\^⟨⟩`]+"
 
-[[hints.enabled]]
-# Steam IDs
-action = "Copy"
-post_processing = true
-regex = "7[0-9]{16}"
+# [[hints.enabled]]
+# # Steam IDs
+# action = "Copy"
+# post_processing = true
+# regex = "7[0-9]{16}"
 
 [hints.enabled.mouse]
 enabled = true

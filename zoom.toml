@@ -1,0 +1,14 @@
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Alt"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Alt"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "0"
+mods = "Alt"
