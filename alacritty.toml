@@ -1,3 +1,4 @@
+[general]
 # enable_experimental_conpty_backend = false
 live_config_reload = true
 # renderer_api = "Classic"
@@ -576,7 +577,7 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 decorations = "full"
 dynamic_padding = false
 dynamic_title = true
-opacity = 0.99
+opacity = 0.98
 startup_mode = "Windowed"
 padding = { x = 0, y = 0 }
 
