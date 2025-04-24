@@ -1,3 +1,15 @@
+[window]
+decorations = "full"
+dynamic_padding = false
+dynamic_title = true
+opacity = 0.991
+startup_mode = "Windowed"
+padding = { x = 0, y = 0 }
+
+[window.dimensions]
+columns = 0
+lines = 0
+
 [general]
 # enable_experimental_conpty_backend = false
 live_config_reload = true
@@ -572,15 +584,3 @@ multiplier = 3
 [selection]
 save_to_clipboard = false
 semantic_escape_chars = ",│`|:\"' ()[]{}<>"
-
-[window]
-decorations = "full"
-dynamic_padding = false
-dynamic_title = true
-opacity = 0.98
-startup_mode = "Windowed"
-padding = { x = 0, y = 0 }
-
-[window.dimensions]
-columns = 0
-lines = 0
