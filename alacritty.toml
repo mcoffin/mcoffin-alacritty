@@ -1,3 +1,12 @@
+[general]
+# enable_experimental_conpty_backend = false
+live_config_reload = true
+# renderer_api = "Classic"
+import = [
+	"~/.config/alacritty/mcbrown.toml",
+	"~/.config/alacritty/zoom.toml"
+]
+
 [window]
 decorations = "full"
 dynamic_padding = false
@@ -9,15 +18,6 @@ padding = { x = 0, y = 0 }
 [window.dimensions]
 columns = 0
 lines = 0
-
-[general]
-# enable_experimental_conpty_backend = false
-live_config_reload = true
-# renderer_api = "Classic"
-import = [
-	"~/.config/alacritty/mcbrown.toml",
-	"~/.config/alacritty/zoom.toml"
-]
 
 [bell]
 animation = "EaseOutExpo"
